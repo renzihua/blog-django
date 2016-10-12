@@ -540,3 +540,7 @@ Traceback (most recent call last):
 VariableDoesNotExist: Failed lookup for key [name] in u'None'
 2016-10-11 16:41:05,683 [Thread-3:139907274127104] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 3; args=(3,)
 2016-10-11 16:41:05,688 [Thread-3:139907274127104] [django.server:131] [basehttp:log_message] [INFO]- "GET /blog/article/3 HTTP/1.1" 200 16749
+2016-10-12 08:21:55,623 [Dummy-1:140157489645312] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-10-12 08:21:55,624 [Dummy-1:140157489645312] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-10-12 08:21:55,677 [Dummy-1:140157489645312] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2016-10-12 08:21:55,680 [Dummy-1:140157489645312] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
