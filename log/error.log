@@ -1,0 +1,38 @@
+2016-10-08 06:01:49,558 [Thread-2:139698000922368] [blog.views:11] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-08 06:18:10,060 [Thread-2:140378053277440] [blog.views:22] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-08 06:18:29,003 [Thread-2:139891845691136] [blog.views:22] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-08 06:18:40,954 [Thread-6:139891820513024] [blog.views:22] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-08 06:21:24,086 [Thread-2:139770181187328] [blog.views:23] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-08 06:40:32,225 [Thread-4:139770172794624] [blog.views:23] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-08 12:24:03,444 [Thread-2:140235545478912] [blog.views:23] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-08 15:19:01,483 [Thread-26:140108208535296] [blog.views:23] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-09 06:11:08,535 [Thread-2:140058990884608] [blog.views:23] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-09 06:11:31,194 [Thread-34:140058974099200] [blog.views:23] [views:home] [ERROR]- [Errno 2] No such file or directory: 'lgy.txt'
+2016-10-10 11:44:50,432 [Thread-3:140671203460864] [blog.views:75] [views:archive] [ERROR]- (1271, u"Illegal mix of collations for operation 'like'")
+2016-10-11 08:16:16,486 [Thread-2:140499776976640] [blog.views:119] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:16:46,376 [Thread-2:140403549992704] [blog.views:119] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:17:59,857 [Thread-2:139844107646720] [blog.views:120] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:18:41,386 [Thread-3:139844107646720] [blog.views:120] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:19:16,824 [Thread-2:139808116889344] [blog.views:120] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:20:34,283 [Thread-2:139764260275968] [blog.views:120] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:21:22,253 [Thread-2:139897127298816] [blog.views:121] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:21:42,165 [Thread-2:140576926062336] [blog.views:121] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:21:52,648 [Thread-3:140576926062336] [blog.views:121] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:24:13,725 [Thread-2:140307683878656] [blog.views:123] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:24:49,151 [Thread-2:140020066563840] [blog.views:123] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:26:40,174 [Thread-2:140026516010752] [blog.views:124] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:28:30,416 [Thread-2:140407603271424] [blog.views:124] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:29:33,162 [Thread-2:139647538865920] [blog.views:125] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 08:30:08,126 [Thread-2:140222379902720] [blog.views:125] [views:get_comment] [ERROR]- 'Comment' object has no attribute '__getitem__'
+2016-10-11 14:56:23,989 [Thread-5:139655235335936] [blog.views:165] [views:comment_post] [ERROR]- Cannot assign "u'lgy'": "Comment.user" must be a "User" instance.
+2016-10-11 15:00:20,809 [Thread-4:139752639854336] [blog.views:164] [views:comment_post] [ERROR]- Cannot assign "u'lgy'": "Comment.user" must be a "User" instance.
+2016-10-11 15:00:44,910 [Thread-6:139752639854336] [blog.views:164] [views:comment_post] [ERROR]- Cannot assign "u'lgy'": "Comment.user" must be a "User" instance.
+2016-10-11 15:03:11,243 [Thread-3:139760466228992] [blog.views:164] [views:comment_post] [ERROR]- Cannot assign "u'3'": "Comment.article" must be a "Article" instance.
+2016-10-11 15:04:56,006 [Thread-3:140075293284096] [blog.views:164] [views:comment_post] [ERROR]- 'article__id' is an invalid keyword argument for this function
+2016-10-11 16:19:53,681 [Thread-3:140172850722560] [blog.views:221] [views:reg] [ERROR]- create() takes exactly 1 argument (2 given)
+2016-10-11 16:21:10,327 [Thread-26:140172750477056] [blog.views:221] [views:reg] [ERROR]- create() takes exactly 1 argument (2 given)
+2016-10-11 16:22:47,939 [Thread-7:139838472832768] [blog.views:222] [views:reg] [ERROR]- create() takes exactly 1 argument (2 given)
+2016-10-11 16:27:33,951 [Thread-3:140619473553152] [blog.views:228] [views:reg] [ERROR]- 'source_url'
+2016-10-11 16:29:51,439 [Thread-9:140208760239872] [blog.views:228] [views:reg] [ERROR]- 'source_url'
+2016-10-11 16:30:32,423 [Thread-17:140208519501568] [blog.views:228] [views:reg] [ERROR]- 'source_url'
+2016-10-11 16:32:28,431 [Thread-16:140060477347584] [blog.views:229] [views:reg] [ERROR]- 'source_url'

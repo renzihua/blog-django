@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h3>测试一下</h3>
+    <h1>{{ SINA_WEIBO }}</h1>
+    <p>{{ artical }}</p>
+    {% for article in articals %}
+            <h3>测试以下</h3>
+          <h3><a href="#">{{ article.title }}</a></h3>
+          <p>{{ article.desc }}</p>
+    {% endfor %}
+</body>
+</html>
