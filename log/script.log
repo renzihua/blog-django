@@ -1167,3 +1167,6 @@ Traceback (most recent call last):
 ValueError: The view blog.views.reg didn't return an HttpResponse object. It returned None instead.
 2016-10-11 15:40:38,650 [Thread-19:139863494072064] [django.request:152] [base:get_response] [WARNING]- Not Found: /blog/login/css/reglogin.css
 2016-10-11 15:44:54,759 [Thread-3:140282892908288] [django.request:152] [base:get_response] [WARNING]- Not Found: /blog/login/css/reglogin.css
+2016-10-14 02:34:46,748 [Thread-25:140489599465216] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-10-24 07:10:38,973 [Thread-25:140484320147200] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-10-24 07:10:39,035 [Thread-26:140484320147200] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
